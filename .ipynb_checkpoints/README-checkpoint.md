@@ -3,6 +3,7 @@
 Official implementation of the IROS 2026 paper "A Simple Recipe for Leveraging Dual Foundation Models in Domain Generalised Semantic Segmentation".
 
 > Ruoyu Guo, Jiaqi Guo, XIN KUN LIN, Maurice Pagnucco, Yang Song
+> 
 > University of New South Wales
 
 ## Installation
