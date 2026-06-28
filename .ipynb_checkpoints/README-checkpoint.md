@@ -56,6 +56,11 @@ Please download GI-Adapter checkpoints from [download link](https://drive.google
   tgt_dataset_dict = dict(..., data_root='[YOUR_DATA_FOLDER_ROOT]', ...)
   ```
 
+    - **Data Preprocessing:** Finally, run the following script to convert the label IDs. Before running, open the script and modify the dataset paths to match your local directories.
+    ```shell
+        sh ./tools/convert_datasets/convert.sh
+    ```
+
 - Note that RAND_CITYSCAPES is SYNTHIA. The final folder structure should look like this:
 ```
 GI-Adapter
